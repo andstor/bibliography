@@ -1,2 +1,2 @@
-# awesome-bibliography
-Bibliography database
+# Bibliography
+
