@@ -46,7 +46,7 @@ async function processLinks(toc) {
 }
 
 async function run() {
-  const homePageURL = 'https://raw.githubusercontent.com/andstor/bibliography/master/Home.md';
+  const homePageURL = 'https://github.com/andstor/bibliography/wiki/Home.md';
   const homePageContents = await getContents(homePageURL);
   const toc = await parseTableOfContents(homePageContents);
   const finalContents = await processLinks(toc);
