@@ -17,7 +17,7 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: npm install axios
+        run: npm install axios @actions/core
 
       - name: Run the script
         run: node .github/scripts/compile_readme.js
