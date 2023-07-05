@@ -1,0 +1,33 @@
+name: Compile Readme
+
+on:
+  gollum
+
+jobs:
+  compile-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Run the script
+        run: node .github/scripts/compile_readme.js
+
+      - name: Commit pdf
+        run: |
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add README.md
+          if output=$(git status --porcelain) && [ ! -z "$output" ]; then
+            git commit -m 'Update README.md'
+            git push
+          fi
