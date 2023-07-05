@@ -1,145 +1,54 @@
- * [Project README](https://github.com/andstor/bibliography#readme)
-    * [Supervised Learning](Supervised-Learning)
-      * [Classification](Supervised-Learning#Classification)
-      * [Regression](Supervised-Learning#Regression)
-    * [Semi-supervised Learning](Semi-supervised-Learning)
-    * [Unsupervised Learning](Unsupervised-Learning)
-      * [Clustering](Unsupervised-Learning#Clustering)
-      * [Dimensionality Reduction](Unsupervised-Learning#Dimensionality-Reduction)
-    * [Self-supervised Learning](Self-supervised-Learning)
-      * [Text Generation](Self-supervised-Learning#Text-Generation)
-    * [Reinforcement Learning](Reinforcement-Learning)
-      * [Policy-based](Reinforcement-Learning#Policy-based)
-        * [Policy gradient](Reinforcement-Learning#Policy-gradient)
-    * [Decoding Strategies](Decoding-Strategies)
-      * [Greedy Search](Decoding-Strategies#Greedy-Search)
-      * [Beam Search](Decoding-Strategies#Beam-Search)
-    * [Prompt Engineering](Prompt-Engineering)
-      * [Discrete Prompt](Prompt-Engineering#Discrete-Prompt)
-      * [Continuous Prompt](Prompt-Engineering#Continuous-Prompt)
-      * [Hybrid Prompt](Prompt-Engineering#Hybrid-Prompt)
-    * [Evaluation](Evaluation)
-* [Title](http://todo.pdf)
-
-## Table of Contents
-
+https://github.com/andstor/bibliography/wiki/Home.md
 
 # Supervised Learning
 
+## Classification
+
+## Regression
 
 
----
+# Semi supervised Learning
 
-# Classification
-
-
-
----
-
-# Regression
-
-
-
----
-
-# Semi-supervised Learning
-
-
-
----
 
 # Unsupervised Learning
 
-
-
----
-
-# Clustering
-
-
-
----
-
-# Dimensionality Reduction
-
-
-
----
+## Clustering
 
 # Self-supervised Learning
 
+## Text Generation
+* **`Codex`** [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374), Chen Mark. et al. (2021).
+
+# Reinforcement Learning :robot:
+
+* (survey) [Reinforcement learning: A survey](https://www.jair.org/index.php/jair/article/view/10166/24110), Kaelbling L. et al. (1996).
+
+## Policy-based :muscle:
+
+### Policy gradient
+
+* **`PPO`** [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347), Schulman J. et al. (2017). [🎞️](https://www.youtube.com/watch?v=bqdjsmSoSgI)
+
+* **`InstructGPT`** [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155), Ouyang L. et al. (2022). [:black_joker:](https://github.com/openai/following-instructions-human-feedback/blob/main/model-card.md)
 
 
----
-
-# Text Generation
-
-
-
----
-
-# Reinforcement Learning
-
-
-
----
-
-# Policy-based
-
-
-
----
-
-# Policy gradient
-
-
-
----
 
 # Decoding Strategies
 
+## Greedy Search
 
+## Beam Search
 
----
+# Prompt Engineering :speech_balloon:
 
-# Greedy Search
+* (survey) [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://arxiv.org/pdf/2107.13586.pdf), Liu P. et al. (2021). [🌐](http://pretrain.nlpedia.ai)
 
+## Discrete Prompt
 
+## Continuous Prompt
 
----
-
-# Beam Search
-
-
-
----
-
-# Prompt Engineering
-
-
-
----
-
-# Discrete Prompt
-
-
-
----
-
-# Continuous Prompt
-
-
-
----
-
-# Hybrid Prompt
-
-
-
----
+## Hybrid Prompt
 
 # Evaluation
 
-
-
----
+[Who Evaluates the Evaluators? On Automatic Metrics for Assessing AI-based Offensive Code Generators](https://arxiv.org/pdf/2212.06008.pdf)
