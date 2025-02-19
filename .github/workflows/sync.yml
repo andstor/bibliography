@@ -15,7 +15,7 @@ jobs:
             repo_name: security-patch-detection-agent
     runs-on: ubuntu-latest
     steps:
-    - name: Copy bib file to ${{ matrix.repo_owner }}/${{ matrix.repo_name }}
+    - name: Copy
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
