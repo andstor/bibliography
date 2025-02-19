@@ -16,6 +16,7 @@ jobs:
             repo_name: paper-template
           - repo_owner: andstor
             repo_name: security-patch-detection-agent
+    continue-on-error: true
     runs-on: ubuntu-latest
     steps:
     - name: Copy bibliography
