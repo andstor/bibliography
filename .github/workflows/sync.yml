@@ -4,8 +4,7 @@ on:
     branches:
       - main
     paths:
-      - 'bibliography.bib'
-      - 'software.bib'
+      - '*.bib'
   workflow_dispatch:
 jobs:
   sync:
