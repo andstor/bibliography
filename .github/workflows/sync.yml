@@ -22,8 +22,8 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        src_path: bibliography.bib
-        dst_path: bibliography.bib
+        src_path: /bibliography.bib
+        dst_path: /bibliography.bib
         dst_owner: ${{ matrix.repo_owner }}
         dst_repo_name: ${{ matrix.repo_name }}
         dst_branch: main
@@ -34,8 +34,8 @@ jobs:
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        src_path: software.bib
-        dst_path: software.bib
+        src_path: /software.bib
+        dst_path: /software.bib
         dst_owner: ${{ matrix.repo_owner }}
         dst_repo_name: ${{ matrix.repo_name }}
         dst_branch: main
